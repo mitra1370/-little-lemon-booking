@@ -12,6 +12,8 @@ This is a React-based table booking form for the Little Lemon restaurant.
 
 ## Setup
 
+To run the project locally:
+
 ```bash
 npm install
 npm start
