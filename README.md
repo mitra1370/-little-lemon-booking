@@ -1,19 +1,15 @@
 # Little Lemon Booking App
 
-This is a React-based table booking form for the Little Lemon restaurant.
+A responsive and accessible React app for booking tables at Little Lemon restaurant.
 
 ## Features
 
-- Form with validation
+- Form validation
 - Accessibility tags
 - Confirmation screen
 - Responsive design
-- Clear error messages
+- Unit test included
 
 ## Setup
 
-To run the project locally:
-
-```bash
-npm install
-npm start
+1. Clone the repo:

@@ -1,20 +1,12 @@
-import React, { useState } from "react";
-import BookingForm from "./BookingForm";
-import Confirmation from "./Confirmation";
-import "./App.css";
+import React from 'react';
+import BookingForm from './components/BookingForm';
 
 function App() {
-  const [confirmedData, setConfirmedData] = useState(null);
-
   return (
-    <div className="App">
-      <h1>Little Lemon Table Booking</h1>
-      {!confirmedData ? (
-        <BookingForm onConfirm={setConfirmedData} />
-      ) : (
-        <Confirmation data={confirmedData} />
-      )}
-    </div>
+    <main>
+      <h1>Book a Table at Little Lemon</h1>
+      <BookingForm />
+    </main>
   );
 }
 
